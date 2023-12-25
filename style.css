@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    font-family: 'My Nicer Font'; /* You can change the font family in a few different method for a webpage */
+    max-width: 800px;
+    margin:auto;
+}
+
+  body {
+    font-size: 0.9em;
+    display: block;
+}
+
+section {
+    margin:auto;
+        
+}
+header{
+    text-align: center; /* To control the alignment attribute of text supports the values: right,left,center,justify */
+   margin-bottom: 30px;
+    margin-top: 30px
+}
+#pad{
+    padding: 5px 10px 5px;
+}
+.hex{
+    color:#00FF00;
+   
+    text-align: center;
+}
+.col {
+    color: green;
+   
+    text-align: center;
+    
+}
+.rgb{
+    color: rgb(0,255,0);
+  
+    text-align: center;
+    text-indent: 50px;    /* To control the text-indent indented the text from the left to right */
+    font-weight:bold;    /* To specify how bold you would like the text to be: lighter, normal, bold, and bolder. */
+    font-style:italic;  /* You can change the font style and control the size of the text elements */
+}
+
+.spacing-letter {
+    letter-spacing: 8px;
+}
+.word-spacing{
+    word-spacing: 8px;
+}
+.border{
+    
+  
+    border: 5px solid;
+    border-color: #00FF00;
+}
+.text-border{
+
+    border-top: 15px solid #f9cc9d;;
+    border-left: 10px solid #f9cc9d;;
+    border-right: 10px solid #f9cc9d;;
+    border-bottom: 5px solid #f9cc9d;;
+    padding: 25px ;
+}
+
+.p-margins {
+    border-top: 15px solid #f9cc9d;
+    border-left: 10px solid #f9cc9d;
+    border-right: 10px solid #f9cc9d;
+    border-bottom: 5px solid #f9cc9d;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 100px;
+   
+}
+.opacity{
+        opacity: 0.4;
+}
+
+.background{
+        background-image: url('./img/cssbox1.png');
+        color: white;
+        background-size: 100%;
+        background-repeat: repeat;
+        width: 400px;
+        height: 400px;
+        text-align: center;
+
+}
+
+ 
